@@ -12,6 +12,7 @@
         var btnWebToIOS = document.getElementById("btnWebToIOS")
         btnWebToIOS.addEventListener("click", function() {
             window.webkit.messageHandlers.callback.postMessage("Call iOS from web.")
+            console.log("click web to ios")
         })
     </script>
 </body>
